@@ -1,0 +1,281 @@
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Sunburst Chart</title>
+  <link href="https://playground.anychart.com/chartopedia/samples/Sunburst_Chart/iframe" rel="canonical">
+  <meta content="Sunburst Chart,Tooltip" name="keywords">
+  <meta content="AnyChart - JavaScript Charts designed to be embedded and integrated" name="description">
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" rel="stylesheet" type="text/css">
+  <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" rel="stylesheet" type="text/css">
+  <style>html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}</style>
+ </head>
+ <body>
+  <div id="container"></div>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-sunburst.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+  <script type="text/javascript">anychart.onDocumentReady(function () {
+// PARAMETERLIJST VOLGENS VOLGENDE FORMAT: {name: "PARAMETER_NAAM", value: 1, label: "PARAMETER_OORDEEL", fill: "PARAMETER_KLEUR"},
+    // create data
+    var data = 
+
+[
+
+
+{name: 'Chemische Toestand', label: 'Voldoet niet', fill: '#ba1509', children: [
+
+
+
+{name: 'Ubiquitaire stoffen',     label: 'Voldoet niet', fill: '#ba1509', children: [
+
+
+
+
+{name: 'Trichloorbenzeen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som a-, b-, c- en d-HCH', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som 2,4 -DDT, 4,4 -DDT, 4,4 -DDD en 4,4 -DDE', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Trichloormethaan (chloroform)', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Isoproturon', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Tetrachloormethaan (tetra)', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Pentachloorfenol', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Irgarol', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Benzeen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: '1,2-dichloorethaan', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Bifenox', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Bis(2-ethylhexyl)ftalaat (DEHP)', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Pentachloorbenzeen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Dichloorvos', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Aclonifen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Hexachloorbutadieen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Lood', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Cadmium', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Ethylchloorpyrifos', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som 4-nonylfenol-isomeren (vertakt)', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: '4-tertiair-octylfenol', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Nikkel', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Trichlooretheen (tri)', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som C10-C13-chlooralkanen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Endosulfan (som alfa- en beta-isomeer)', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Simazine', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Naftaleen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Dichloormethaan', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Fluorantheen', value: 23256, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Alachloor', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Diuron', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Atrazine', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Hexachloorbenzeen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som aldrin, dieldrin, endrin en isodrin', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Chloorfenvinfos', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Dicofol', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: '4,4 -dichloordifenyltrichloorethaan', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Tetrachlooretheen (per)', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Terbutrin', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Antraceen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Cypermethrin', value: 23256, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Quinoxyfen', value: 23256, label: 'Voldoet', fill: '#0448db'},
+{name: 'Trifluraline', value: 23256, label: 'Voldoet', fill: '#0448db'},
+
+
+
+]},
+
+
+
+{name: 'Non-ubiquitaire stoffen', label: 'Voldoet niet', fill: '#ba1509', children: [
+
+
+
+
+{name: 'Som a-, b- en c-HBCD', value: 90909, label: 'Voldoet', fill: '#0448db'},
+{name: 'Kwik', value: 90909, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Som 29 dioxines (Bbk, 1-10-2010, als TEQ)', value: 90909, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som PBDE28, 47, 99, 100, 153, 154', value: 90909, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Benzo(ghi)peryleen', value: 90909, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Som lineair en vertakte perfluoroctylsulfonaat', value: 90909, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Benzo(k)fluorantheen', value: 90909, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som heptachloor en cis-heptachloorepoxide', value: 90909, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Tributyltin (kation)', value: 90909, label: 'Voldoet', fill: '#0448db'},
+{name: 'Benzo(b)fluorantheen', value: 90909, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Benzo(a)pyreen', value: 90909, label: 'Voldoet', fill: '#0448db'},
+
+
+
+]},
+
+
+]},
+
+
+    
+{name: 'Ecologische Toestand', label: 'Matig', fill: '#ba1509', children: [
+
+
+
+{name: 'Biologische Toestand',   label: 'Matig', fill: '#f7f440', children: [
+
+
+
+
+{name: 'Vis', value: 250000, label: 'Matig', fill: '#f7f440'},
+{name: 'Overige waterflora', value: 250000, label: 'Goed', fill: '#16960f'},
+{name: 'Macrofauna', value: 250000, label: 'Matig', fill: '#f7f440'},
+{name: 'Fytoplankton', value: 250000, label: 'Onbekend', fill: '#bdbdbd'},
+
+
+
+]},
+
+
+
+
+
+
+
+{name: 'Fysische Chemie',        label: 'Goed', fill: '#16960f', children: [
+
+
+
+
+{name: 'Stikstof totaal', value: 142857, label: 'Goed', fill: '#16960f'},
+{name: 'Temperatuur', value: 142857, label: 'Goed', fill: '#16960f'},
+{name: 'Fosfor totaal', value: 142857, label: 'Goed', fill: '#16960f'},
+{name: 'Chloride', value: 142857, label: 'Goed', fill: '#16960f'},
+{name: 'Doorzicht', value: 142857, label: 'Onbekend', fill: '#bdbdbd'},
+{name: 'Zuurstof', value: 142857, label: 'Goed', fill: '#16960f'},
+{name: 'Zuurgraad', value: 142857, label: 'Goed', fill: '#16960f'},
+
+
+
+]},
+
+
+
+
+
+
+
+{name: 'Spec. Verontreinigende stoffen',  label: 'Voldoet niet', fill: '#ba1509', children: [
+
+
+
+
+{name: 'Captan', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Chloortoluron', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Chryseen', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Esfenvaleraat', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Boor', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Mevinfos', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Fenamifos', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Arseen', value: 12987, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Tributylfosfaat', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Monolinuron', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Tin', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Metazachloor', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Chloridazon', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: '2-methyl-4-chloorfenoxyazijnzuur', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Metabenzthiazuron', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Dichloorprop-P', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Ammonium', value: 12987, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Barium', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Carbendazim', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Benzo(a)antraceen', value: 12987, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Koper', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Imidacloprid', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Kobalt', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Fenitrothion', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Chloorprofam', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Terbutylazine', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Dimethenamid-P', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Propoxur', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Ethylazinfos', value: 12987, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Fenantreen', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Benzylchloride', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Methylazinfos', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Thallium', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Chroom', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Titaan', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Vanadium', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Abamectine', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Lambda-cyhalothrin', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Pyridaben', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Dibutyltin (kation)', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Deltamethrin', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Tellurium', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Mecoprop-P', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Metolachloor', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Antimoon', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Tolclofos-methyl', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Diazinon', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Beryllium', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Alfa,alfa-dichloortolueen', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Uranium', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Pyriproxyfen', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Heptenofos', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Methyl-metsulfuron', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Trifenyltin (kation)', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Seleen', value: 12987, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Zilver', value: 12987, label: 'Voldoet niet', fill: '#ba1509'},
+{name: 'Methylparathion', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Fenoxycarb', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Teflubenzuron', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+{name: 'Linuron', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Methylpirimifos', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Ethylparathion', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Ethylbenzeen', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Molybdeen', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Omethoaat', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Zink', value: 12987, label: 'Voldoet niet', fill: '#ba1509'},
+{name: '1,2-dichloorpropaan', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: '4-chlooraniline', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Pirimicarb', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Octamethylcyclotetrasiloxaan', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Bentazon', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Triazofos', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Dimethoaat', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Malathion', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Som xyleen-isomeren', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Fenthion', value: 12987, label: 'Voldoet', fill: '#0448db'},
+{name: 'Trichloorfon', value: 12987, label: 'Niet toetsbaar', fill: '#bdbdbd'},
+
+
+
+]},
+
+
+]},
+    ];
+    // create a chart and set the data
+    var chart = anychart.sunburst(data, "as-tree");
+    // set the calculation mode
+    chart.calculationMode("parent-independent");
+    // format chart labels
+    chart.labels().format('{%Name}').fontColor('black').fontFamily('Tahoma').fontWeight('bold');
+    // format chart labels
+    chart.tooltip().format('{%Name}: {%label}');
+	
+    chart.title("Kromme Rijn (2022)");
+
+    // set the container id
+    chart.container("container");
+	
+	chart.hovered().fill({color: "#ffedff"});
+
+
+    // initiate drawing the chart
+    chart.draw();
+});
+</script>
+ </body>
+</html>
